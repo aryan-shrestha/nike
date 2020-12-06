@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Nike</title>
+</head>
+<body>
+    <section class="first-page">
+        <div class="navigation">
+            <div class="logo">
+                <img src="./images/logo.png" id="logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#"  class="nav-link">Products</a></li>
+                    <li><a href= "#footer" class="nav-link">About us</a></li>
+                    <li><a href="#"  class="nav-link">Sign-in</a></li>
+                    <li><a href="#"  class="nav-link"><img src = "./images/cart.png" id = "cart"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mid-section">
+            <div class="content">
+                <div class="intro">
+                    <h1>Nike</h1>
+                    <p>Nike or nothing. Just Do it.</p>
+                    <p>Nike or nothing. Just Do it.</p>
+                    <p>Nike or nothing. Just Do it.</p>
+                    <div class="buttons">
+                       
+                        <button class="see-more" id="see-more">See More</button>
+                    </div>    
+                </div>
+                <div class="thumbnails">
+                    <div class="row">
+                        <div class="thumbnail">
+                           <img src="./images/1.png" alt="shoes 1 ">
+                           <p>Rs. 15000</p>
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./images/2.png" alt="shoes 2">
+                            <p>Rs. 10000</p>
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./images/3.png" alt="shoes 3">
+                            <p>Rs. 11500</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="thumbnail">
+                           <img src="./images/4.png" alt="shoes 4">
+                           <p id = "thumbnail-price">Rs. 11000</p>
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./images/5.png" alt="shoes 5">
+                            <p>Rs.12500</p>
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./images/6.png" alt="shoes 6">
+                            <p>Rs.15500</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="thumbnail">
+                           <img src="./images/7.png" alt="shoes 7">
+                           <p>Rs.15050</p>
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./images/8.png" alt="shoes 8">
+                            <p>Rs.16500</p>
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./images/12.png" alt="shoes 9">
+                            <p>Rs.11500</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="thumbnail">
+                           <img src="./images/10.png" alt="shoes 7">
+                           <p>Rs.14500</p>
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./images/11.png" alt="shoes 8">
+                            <p>Rs.10500</p>
+                        </div>
+                        
+                    </div>
+                </div>    
+            </div>
+            <div class="shoes">
+                <img src="./images/1.png" id="photo">
+            </div>
+        </div>
+    </section>
+    <div class="up-button">
+        <img src = "./images/uparrow.png" alt="upArrow">
+    </div>
+    <div class="down-button">
+        <img src="./images/downarrow.png" alt="downArrow">
+    </div>
+    <button class = "buy-now">Buy Now</button>
+    <section class = "buy-now-pop-up">
+        <div class = "add-to-cart">
+            <div class="size">
+                <h1>Nike Air</h1>
+                <div class="radio">
+                    <input type = "radio" name = "size" id = "38">
+                    <label for = "38">38</label>
+                    <input type = "radio" name = "size" id = "39">
+                    <label for = "39">39</label>
+                    <input type = "radio" name = "size" id = "40">
+                    <label for = "40">40</label>
+                    <input type = "radio" name = "size" id = "41">
+                    <label for = "41">42</label>
+                    <input type = "radio" name = "size" id = "42">
+                    <label for = "42">43</label>
+                </div>
+                <p id = "shoes-price">Rs.15000/-</p>
+                <button id="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="shoes">
+                <img src="./images/1.png" id="cart-photo">
+            </div>
+            <div class="close-button">
+                <h1>X</h1>
+            </div>
+        </div>
+    </section>
+    <!-- Cart-->
+    <section class="cart">
+       <div class = "cart-items">
+            <div class = "title">
+                <h1>Cart</h1>
+            </div>
+            <div class = "sub-headings">
+                <h3>Item</h3>
+                <h3>Quantity</h3>
+                <h3>Price</h3>
+            </div>
+            <div class= "cart-rows">
+                <!--Items will be added by user-->
+            </div>
+            <div class = "total">
+                <p>Total</p>
+                <p id = "totalAmount"></p>
+                <button class = "order-now">Order Now</button>
+            </div>
+            <div class="cart-close-btn">
+                <h1>X</h1>
+            </div>
+       </div>
+    </section>
+    <section class="last-page" id = "footer">
+        <div class="footer-1">
+            <div class="footer-logo">
+                <img src = "./images/footer_logo.png" alt = "logo" id = "footer_logo">
+            </div>
+            <div class="slogan">
+                <h1>Just Do It</h1>
+            </div>
+        </div>
+        <div class="footer-2">
+            <div class = "footer-2-row">
+                <ul>
+                    <li><a href = "#">GIFT CARD</a></li>
+                    <li><a href = "#">PROMOTIONS</a></li>
+                    <li><a href = "#">FIND A STORE</a></li>
+                    <li><a href = "#">SIGN UP FOR EMAIL</a></li>
+                    <li><a href = "#">BECOME A MEMBER</a></li>
+                    <li><a href = "#">NIKE JOURNAL</a></li>
+                    <li><a href = "#">SEND US FEEDBACK</a></li>
+                </ul>
+            </div>
+            <div class = "footer-2-row">
+                <ul>
+                    <li><a href="#"><strong> GET HELP </strong></a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Pay Options</a></li>
+                    <li><a href="#">Gift Card Balance</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="footer-2-row">
+                <ul>
+                    <li><a href="#"><strong> About Nike </strong></a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Purpose</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">CA Supply Chain Act</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+    <script src="./cart.js"></script>
+</body>
+</html>
